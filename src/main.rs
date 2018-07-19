@@ -1,3 +1,6 @@
+extern crate dotenv;
+extern crate github_search;
+
 fn main() {
-    println!("Hello, world!");
+    dotenv::dotenv().ok();
 }

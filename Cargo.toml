@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["600913 <600913@gmail.com>"]
 
 [dependencies]
+github-rs = "0.6.1"
+serde_json = "1.0.24"
+dotenv = "0.13.0"
